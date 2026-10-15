@@ -5,6 +5,7 @@
     <string name="input_hint">Įveskite tekstą</string>
     <string name="count_button">Skaičiuoti</string>
     <string name="result_label">Rezultatas</string>
+    <string name="result_format">Rezultatas: %1$d</string>
     <string name="empty_text_message">Įveskite tekstą</string>
 
     <string-array name="count_options">

@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         EditText input = findViewById(R.id.EditText1);
-        Spinner spinner = findViewById(R.id.TypeCount);
+        Spinner spinner = findViewById(R.id.SpinnerTypeCount);
         Button button = findViewById(R.id.buttonCount);
         TextView result = findViewById(R.id.Result);
 
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 number = counter.countSigns(text);
             }
 
-            result.setText(getString(R.string.result_label) + " " + number);
+            result.setText(getString(R.string.result_format, number));
         });
     }
 }
