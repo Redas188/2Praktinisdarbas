@@ -1,0 +1,14 @@
+
+<resources>
+    <string name="app_name">WordCounter</string>
+    <string name="app_title">Teksto skaičiuoklė</string>
+    <string name="input_hint">Įveskite tekstą</string>
+    <string name="count_button">Skaičiuoti</string>
+    <string name="result_label">Rezultatas</string>
+    <string name="empty_text_message">Įveskite tekstą</string>
+
+    <string-array name="count_options">
+        <item>Žodžiai</item>
+        <item>Ženklai</item>
+    </string-array>
+</resources>
